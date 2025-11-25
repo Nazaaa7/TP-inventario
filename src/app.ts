@@ -1,6 +1,7 @@
 import express from "express";
 import cors from "cors";
 import dotenv from "dotenv";
+// @ts-ignore
 import { body, param } from "express-validator";
 
 import * as AuthController from "./controllers/auth.controller.js";

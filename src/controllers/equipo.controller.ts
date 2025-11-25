@@ -1,5 +1,5 @@
 import { Request, Response } from "express";
-import "../types/express"; // Import the extended type definition
+
 import * as EquipoService from "../services/equipo.service.js";
 import { success, failure } from "../helpers/response.js";
 
